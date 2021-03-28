@@ -14,29 +14,17 @@ For the lense, a fisheye or wide FOV lense, is highly reccomended.
 Currently, the heavy lifting (SLAM algorithms) takes place on a remote host computer, receiving sensor data over wifi. This makes it easier both to test and develop different SLAM algorithms and new features.
 
 The SLAM algorithms currently supported are:
+
 OrbSLAM3 (mono and mono+imu)
+
 VINS-Fusion (mono+imu)
+
 DSO and LDSO (mono)
 
 ROS wrappers (for real time implementations) are provided for both the sensors and the SLAM algorithms.
 
 
 ### Hardware and software overview
-A Raspberry Pi 4, running Ubuntu 18, was chosen as the the edge computer for reading and transmitting the sensors' data, over wifi. 
-An ubuntu 18 host computer receives the data from the PI, and runs the different SLAM algorithms.
-The STL of the 3D case of the PI is provided for the different sensors. 
-For running 
+A Raspberry Pi 4, running Ubuntu 18, was chosen as the the edge computer for reading and transmitting the sensors' data, over wifi. General installation instructions for the PI are provided here                   . A PI image will be uploaded in the near future.
 
-Li
-Installations:
-Pi You can download an Ubuntu18 based image for the pi4 here.
-
-Host ORBSLAM3 can be installed from
-
-
-Operating instructions:
-On the pi, the ROS workspace for the Bluefox camera is named mvBluefox_ws. Remember to source it in the .bashrc . the ROS workspace for the IDS camera is named
-
-
-Operating instructions:
-On the pi, the ROS workspace for the Bluefox camera is named mvBluefox_ws. Remember to source it in the .bashrc . the ROS workspace for the IDS camera is named
+An ubuntu 18 host computer receives the data from the PI, and runs the different SLAM algorithms. We try to provide all the links, relevant information and Ros wrappers needed  for implementing and running the different SLAM algorithms in real time. 
