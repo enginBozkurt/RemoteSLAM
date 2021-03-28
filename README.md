@@ -28,6 +28,9 @@ ROS wrappers (for real time implementations) are provided for both the sensors a
 
 
 #
+
+
+
 ## Hardware and software overview
 
 ![PI_Case](https://github.com/tau-adl/RemoteSLAM/blob/main/PI_case_small.jpg)
