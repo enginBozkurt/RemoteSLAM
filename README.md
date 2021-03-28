@@ -37,7 +37,7 @@ Kalibr is a toolbox that solves the following calibration problems:
     full intrinsic 
 
 
-**Please find more information on the [wiki pages](https://github.com/ethz-asl/kalibr/wiki) of this repository.**
+**Please find more information on the [wiki pages](https://github.com/tau-adl/RemoteSLAM/wiki) of this repository.**
 
 **For questions or comments, please open an issue on Github.**
 
