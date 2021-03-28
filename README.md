@@ -36,3 +36,7 @@ Host ORBSLAM3 can be installed from
 
 Operating instructions:
 On the pi, the ROS workspace for the Bluefox camera is named mvBluefox_ws. Remember to source it in the .bashrc . the ROS workspace for the IDS camera is named
+
+
+Operating instructions:
+On the pi, the ROS workspace for the Bluefox camera is named mvBluefox_ws. Remember to source it in the .bashrc . the ROS workspace for the IDS camera is named
