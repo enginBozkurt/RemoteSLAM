@@ -1,6 +1,6 @@
 # RemoteSLAM
 
-### The purpose of this repo is to provide the building blocks (software, hardware and algorithms) for implementing SLAM using small and lite weight sensors (e.g., cameras, imu).
+The purpose of this repo is to provide the building blocks (software, hardware and algorithms) for implementing SLAM using small and lite weight sensors (e.g., cameras, imu).
 We plan to improve it as we go, while receiving assistance from the community.
 Currently the tool supports 3 types of monochrome cameras and the Invense MPU
 
@@ -20,6 +20,14 @@ DSO and LDSO (mono)
 
 ROS wrappers (for real time implementations) are provided for both the sensors and the SLAM algorithms.
 
+
+### Hardware and software overview
+A Raspberry Pi 4, running Ubuntu 18, was chosen as the the edge computer for reading and transmitting the sensors' data, over wifi. 
+An ubuntu 18 host computer receives the data from the PI, and runs the different SLAM algorithms.
+The STL of the 3D case of the PI is provided for the different sensors. 
+For running 
+
+Li
 Installations:
 Pi You can download an Ubuntu18 based image for the pi4 here.
 
