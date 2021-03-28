@@ -14,8 +14,11 @@ For the lense, a fisheye or wide FOV lense, is highly reccomended.
 Currently, the heavy lifting (SLAM algorithms) takes place on a remote host computer, receiving sensor data over wifi. This makes it easier both to test and develop different SLAM algorithms and new features.
 
 The SLAM algorithms currently supported are:
+
 OrbSLAM3 (mono and mono+imu)
+
 VINS-Fusion (mono+imu)
+
 DSO and LDSO (mono)
 
 ROS wrappers (for real time implementations) are provided for both the sensors and the SLAM algorithms.
