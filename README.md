@@ -1,16 +1,22 @@
 # RemoteSLAM
 
 The purpose of this repo is to provide the building blocks (software, hardware and algorithms) for implementing SLAM using small and lite weight sensors (e.g., cameras, imu).
-We plan to improve it as we go, while receiving assistance from the community.
-Currently the tool supports 3 types of monochrome cameras and the Invense MPU
+We plan to improve this repo as we go, while receiving assistance from the community.
+Currently the tool supports 3 types of monochrome cameras, combined with the Invense MPU 9X50 family
 
-UI3271LE-M-GL https://en.ids-imaging.com/store/ui-3271le-vu.html
+Matrix-Vision:  mvBlueFOX3-M/MLC
+https://www.matrix-vision.com/USB3-vision-single-board-camera-mvbluefox3-m.html
 
-mvBlueFOX3-1013GE https://www.matrix-vision.com/USB3-vision-single-board-camera-mvbluefox3-m.html
+IDS-Imaging:  UI3271LE-M-GL 
+https://en.ids-imaging.com/store/ui-3271le-vu.html
 
+Arducam: 
+https://www.arducam.com/products/camera-breakout-board/global-shutter-camera/
+
+Waveshare:
 https://www.waveshare.com/imx219-200-camera.htm
 
-For the lense, a fisheye or wide FOV lense, is highly reccomended.
+For the lense, a fisheye or wide FOV lense, is highly recommended.
 Currently, the heavy lifting (SLAM algorithms) takes place on a remote host computer, receiving sensor data over wifi. This makes it easier both to test and develop different SLAM algorithms and new features.
 
 The SLAM algorithms currently supported are:
