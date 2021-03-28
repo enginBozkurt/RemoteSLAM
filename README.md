@@ -25,6 +25,9 @@ ROS wrappers (for real time implementations) are provided for both the sensors a
 
 
 ### Hardware and software overview
+
+![PI_Case](https://github.com/tau-adl/RemoteSLAM/blob/main/PI_case.jpeg)
+
 A Raspberry Pi 4, running Ubuntu 18, was chosen as the the edge computer for reading and transmitting the sensors' data, over wifi. General installation instructions for the PI are provided here                   . A PI image will be uploaded in the near future.
 
 An ubuntu 18 host computer receives the data from the PI, and runs the different SLAM algorithms. We try to provide all the links, relevant information and Ros wrappers needed  for implementing and running the different SLAM algorithms in real time. 
