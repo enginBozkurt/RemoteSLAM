@@ -4,7 +4,9 @@
 We plan to improve it as we go, while receiving assistance from the community.
 Currently the tool supports 3 types of monochrome cameras and the Invense MPU
 UI3271LE-M-GL https://en.ids-imaging.com/store/ui-3271le-vu.html
+
 mvBlueFOX3-1013GE https://www.matrix-vision.com/USB3-vision-single-board-camera-mvbluefox3-m.html
+
 https://www.waveshare.com/imx219-200-camera.htm
 
 For the lense, a fisheye or wide FOV lense, is highly reccomended.
