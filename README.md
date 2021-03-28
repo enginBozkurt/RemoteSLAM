@@ -42,7 +42,7 @@ An ubuntu 18 host computer receives the data from the PI, and runs the different
 
 
 
-Kalibr is a toolbox that solves the following calibration problems:
+ is a toolbox that solves the following  problems:
 
 1. **Multiple camera **: 
     intrinsic a
