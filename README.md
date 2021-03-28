@@ -3,6 +3,7 @@
 ### The purpose of this repo is to provide the building blocks (software, hardware and algorithms) for implementing SLAM using small and lite weight sensors (e.g., cameras, imu).
 We plan to improve it as we go, while receiving assistance from the community.
 Currently the tool supports 3 types of monochrome cameras and the Invense MPU
+
 UI3271LE-M-GL https://en.ids-imaging.com/store/ui-3271le-vu.html
 
 mvBlueFOX3-1013GE https://www.matrix-vision.com/USB3-vision-single-board-camera-mvbluefox3-m.html
