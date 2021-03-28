@@ -23,12 +23,8 @@ DSO and LDSO (mono)
 
 ROS wrappers (for real time implementations) are provided for both the sensors and the SLAM algorithms.
 
-
-
-
-
-
-### Hardware and software overview
+#
+## Hardware and software overview
 
 ![PI_Case](https://github.com/tau-adl/RemoteSLAM/blob/main/PI_case_small.jpg)
 
