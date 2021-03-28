@@ -22,21 +22,11 @@ ROS wrappers (for real time implementations) are provided for both the sensors a
 
 
 ### Hardware and software overview
-A Raspberry Pi 4, running Ubuntu 18, was chosen as the the edge computer for reading and transmitting the sensors' data, over wifi. 
-An ubuntu 18 host computer receives the data from the PI, and runs the different SLAM algorithms.
+A Raspberry Pi 4, running Ubuntu 18, was chosen as the the edge computer for reading and transmitting the sensors' data, over wifi. General installation instructions for the PI are provided here                   . A PI image will be uploaded in the near future.
+
+An ubuntu 18 host computer receives the data from the PI, and runs the different SLAM algorithms. We try to provide all the links, relevant information and Ros wrappers needed  for implementing and running the different SLAM algorithms in real time.  
+
+
 The STL of the 3D case of the PI is provided for the different sensors. 
-For running 
 
-Li
-Installations:
-Pi You can download an Ubuntu18 based image for the pi4 here.
-
-Host ORBSLAM3 can be installed from
-
-
-Operating instructions:
-On the pi, the ROS workspace for the Bluefox camera is named mvBluefox_ws. Remember to source it in the .bashrc . the ROS workspace for the IDS camera is named
-
-
-Operating instructions:
-On the pi, the ROS workspace for the Bluefox camera is named mvBluefox_ws. Remember to source it in the .bashrc . the ROS workspace for the IDS camera is named
+Our small and humble donation is 
