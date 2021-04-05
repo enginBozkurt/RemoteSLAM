@@ -1,0 +1,17 @@
+<launch>
+    <!-- ROSBAG -->
+    <arg name="path" default="/home/user/Datasets/EuRoC/MH01/mav0/" />
+    <arg name="file" default="MH_01_easy" />
+
+    <node pkg="rosbag" type="play" name="player" output="screen" args="--clock --pause $(arg path)$(arg file).bag"/>
+
+    <include file="$(find orb_slam3_wrapper)/launch/orb_slam3.launch">
+        <arg name="camera_frame" value="camera_optical_frame"/>
+        <arg name="camera_topic" value="/cam0/image_raw"/>
+        <arg name="use_viewer" value="true"/>
+        <arg name="path_settings" value="$(find orb_slam3_wrapper)/config/EuRoC.yaml"/>
+    </include>
+
+    <!--<<node name="record" pkg="rosbag" type="record" args="-o /lab/bag_rec/bag_rec /orb_slam3_pose"/>-->
+
+</launch>

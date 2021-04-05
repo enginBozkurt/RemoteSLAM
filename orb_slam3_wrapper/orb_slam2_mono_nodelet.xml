@@ -1,0 +1,10 @@
+<library path="lib/liborb_slam2_mono_nodelet">
+
+    <class name="orb_slam2_wrapper/OrbSlam2MonoNodelet"
+           type="orb_slam2_wrapper::OrbSlam2MonoNodelet" base_class_type="nodelet::Nodelet">
+        <description>
+            ORB-SLAM2 Stereo Wrapper Nodelet.
+        </description>
+    </class>
+
+</library>

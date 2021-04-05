@@ -1,0 +1,17 @@
+<launch>
+    <!-- ROSBAG -->
+    <arg name="path" default="/lab/datasets/" />
+    <arg name="file" default="CF" />
+
+    <node pkg="rosbag" type="play" name="player" output="screen" args="--clock --pause $(arg path)$(arg file).bag"/>
+
+    <!--<include file="$(find lab_description)/launch/description.launch"/>-->
+    <!-- ORB SLAM 2 -->
+    <include file="$(find orb_slam2_wrapper)/launch/orb_slam2.launch">
+        <arg name="camera_frame" value="camera_optical_frame"/>
+        <arg name="camera_topic" value="/camera/image_raw"/>
+        <arg name="use_viewer" value="true"/>
+        <arg name="path_settings" value="$(find orb_slam2_wrapper)/config/CF.yaml"/>
+    </include>
+    <node name="record" pkg="rosbag" type="record" args="-o /lab/bag_rec/bag_rec /orb_slam2_pose"/>
+</launch>
