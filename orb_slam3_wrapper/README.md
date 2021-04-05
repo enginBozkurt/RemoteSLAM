@@ -1,3 +1,2 @@
 # orb_slam3_wrapper
-This is an OrbSLAM3 ROS wrapper used in the drones lab at TAU
-check
+This is an OrbSLAM3 ROS wrapper for mono and mono-inertial sensors.
