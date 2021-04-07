@@ -37,7 +37,7 @@ An ubuntu 18 host computer receives the data from the PI, and runs the different
 
 ## Authors
 
-##References
+## References
 
 
 
@@ -46,7 +46,7 @@ An ubuntu 18 host computer receives the data from the PI, and runs the different
 
 1. **Multiple camera **: 
     intrinsic a
-1. **Visual-inertial (camera-IMU)**:
+2. **Visual-inertial (camera-IMU)**:
     spatial and t
-1. **Rolling Shutter **:
+3. **Rolling Shutter **:
     full intrinsic 
