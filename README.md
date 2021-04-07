@@ -4,7 +4,8 @@ The purpose of this repo is to provide the building blocks (software, hardware a
 We plan to improve this repo as we go, while receiving assistance from the community.
 Currently, the tool supports 4 types of monochrome cameras/sensors, combined with the Invense MPU 9X50 family:
 * Matrix-Vision:  mvBlueFOX3-M/MLC 
-- https://www.matrix-vision.com/USB3-vision-single-board-camera-mvbluefox3-m.html
+
+https://www.matrix-vision.com/USB3-vision-single-board-camera-mvbluefox3-m.html
 * IDS-Imaging:  UI3271LE-M-GL   
 - https://en.ids-imaging.com/store/ui-3271le-vu.html
 * Arducam:   https://www.arducam.com/products/camera-breakout-board/global-shutter-camera/
