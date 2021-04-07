@@ -16,6 +16,7 @@ Currently, the tool supports 4 types of monochrome cameras/sensors, combined wit
 
     https://www.waveshare.com/imx219-200-camera.htm
 
+
 For the lense, a fisheye or wide FOV lense is highly recommended. See this page on our Wiki for some tips: https://github.com/tau-adl/RemoteSLAM/wiki/Camera-IMU-Calibration.
 
 Currently, the heavy lifting (SLAM algorithms) takes place on a remote host computer, receiving sensor data over wifi. This makes it easier to both test and develop different SLAM algorithms and new features.
@@ -25,19 +26,19 @@ The SLAM algorithms currently supported are:
    
     https://github.com/UZ-SLAMLab/ORB_SLAM3
     
-    See on our Wiki page:  https://github.com/tau-adl/RemoteSLAM/wiki/Installing-and-running-OrbSLAM3-and-its-ROS-wrapper
+    See on Wiki page:  https://github.com/tau-adl/RemoteSLAM/wiki/Installing-and-running-OrbSLAM3-and-its-ROS-wrapper
 * VINS-Fusion (mono+imu). Wiki page
 
     https://github.com/HKUST-Aerial-Robotics/VINS-Mono
     
-    See on our Wiki page:  https://github.com/tau-adl/RemoteSLAM/wiki/Installing-and-running-Vins-Mono
+    See on Wiki page:  https://github.com/tau-adl/RemoteSLAM/wiki/Installing-and-running-Vins-Mono
     
 SLAM algorithms soon to be supported:
 * DSO and LDSO (mono). Wiki page
 
     https://github.com/JakobEngel/dso
     
-    See on our Wiki page: https://github.com/tau-adl/RemoteSLAM/wiki/DSO-and-LDSO-(mono)-calibrations-and-ROS-wrappers
+    See on Wiki page: https://github.com/tau-adl/RemoteSLAM/wiki/DSO-and-LDSO-(mono)-calibrations-and-ROS-wrappers
 
 
 ROS wrappers (for real time implementations) are provided for both the sensors and the SLAM algorithms (where not available in the original repo).
@@ -68,9 +69,9 @@ An ubuntu 18 host computer receives the data from the PI, and runs the different
 
  is a toolbox that solves the following  problems:
 
-1. Multiple camera **: 
-    intrinsic a
-1. Visual-inertial (camera-IMU)**:
-    spatial and t
-1. Rolling Shutter **:
-    full intrinsic 
+1. M: 
+     a
+1. Vi:
+    st
+1. R*:
+    full  
