@@ -23,14 +23,17 @@ The SLAM algorithms currently supported are:
 * OrbSLAM3 (mono and mono+imu). 
    
     https://github.com/UZ-SLAMLab/ORB_SLAM3
+    
     See more support on our Wiki page
 * VINS-Fusion (mono+imu). Wiki page
 
     https://github.com/HKUST-Aerial-Robotics/VINS-Mono
+    
     See more support on our Wiki page
 * DSO and LDSO (mono). Wiki page
 
     https://github.com/JakobEngel/dso
+    
     See more support on our Wiki page
 
 ROS wrappers (for real time implementations) are provided for both the sensors and the SLAM algorithms (where not available in the original repo).
