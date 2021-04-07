@@ -32,7 +32,7 @@ The SLAM algorithms currently supported are:
     
     See more support on our Wiki page
     
-SLAM algorithmd soon to be supported:
+SLAM algorithms soon to be supported:
 * DSO and LDSO (mono). Wiki page
 
     https://github.com/JakobEngel/dso
