@@ -35,7 +35,7 @@ A Raspberry Pi 4, running Ubuntu 18, was chosen as the the edge computer for rea
 An ubuntu 18 host computer receives the data from the PI, and runs the different SLAM algorithms. We (make our best effort to) provide all the links, relevant information and Ros wrappers needed for implementing and running the different SLAM algorithms in real time. 
 
 
-##Authors
+## Authors
 
 ##References
 
