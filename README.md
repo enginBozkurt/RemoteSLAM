@@ -51,11 +51,11 @@ ROS wrappers (for real time implementations) are provided for both the sensors a
 
 #
 #
-## Hardware and software overview
+## (Short) Hardware and software overview
 
 ![PI_Case](https://github.com/tau-adl/RemoteSLAM/blob/main/PI_case_small.jpg)
 
-A Raspberry Pi 4, running Ubuntu 18 and ROS Melodic, was chosen as the the edge computer for reading and transmitting the sensors' data over wifi. We'll make an effort to upload a PI image in the near future.
+A Raspberry Pi 4, running Ubuntu 18 and ROS Melodic, was chosen as the the edge computer for reading and transmitting the sensors' data over wifi. We'll make an effort to upload a PI image in the near future. As seen in the drawing above, an MPU 9x50 is attached to the rig in addition to the camera and PI. The STL for the rig can be found here ______________________ :
 
 An ubuntu 18 host computer receives the data from the PI, and runs the different SLAM algorithms. We (make our best effort to) provide all the links, relevant information and Ros wrappers needed for implementing and running the different SLAM algorithms in real time. 
 
