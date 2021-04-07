@@ -16,15 +16,24 @@ Currently, the tool supports 4 types of monochrome cameras/sensors, combined wit
 
     https://www.waveshare.com/imx219-200-camera.htm
 
-For the lense, a fisheye or wide FOV lense is highly recommended. See this page on our Wiki for some tips.
+For the lense, a fisheye or wide FOV lense is highly recommended. See this page on our Wiki for some tips: https://github.com/tau-adl/RemoteSLAM/wiki/Camera-IMU-Calibration.
 Currently, the heavy lifting (SLAM algorithms) takes place on a remote host computer, receiving sensor data over wifi. This makes it easier to both test and develop different SLAM algorithms and new features.
 
 The SLAM algorithms currently supported are:
-* OrbSLAM3 (mono and mono+imu). Wiki page
+* OrbSLAM3 (mono and mono+imu). 
+   
+    https://github.com/UZ-SLAMLab/ORB_SLAM3
+    See more support on our Wiki page
 * VINS-Fusion (mono+imu). Wiki page
+
+    https://github.com/HKUST-Aerial-Robotics/VINS-Mono
+    See more support on our Wiki page
 * DSO and LDSO (mono). Wiki page
 
-ROS wrappers (for real time implementations) are provided for both the sensors and the SLAM algorithms.
+    https://github.com/JakobEngel/dso
+    See more support on our Wiki page
+
+ROS wrappers (for real time implementations) are provided for both the sensors and the SLAM algorithms (where not available in the original repo).
 
 
 **Please find more information on the [wiki pages](https://github.com/tau-adl/RemoteSLAM/wiki) of this repository.**
