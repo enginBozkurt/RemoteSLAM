@@ -44,9 +44,9 @@ An ubuntu 18 host computer receives the data from the PI, and runs the different
 
  is a toolbox that solves the following  problems:
 
-1. **Multiple camera **: 
+1. Multiple camera **: 
     intrinsic a
-2. **Visual-inertial (camera-IMU)**:
+1. Visual-inertial (camera-IMU)**:
     spatial and t
-3. **Rolling Shutter **:
+1. Rolling Shutter **:
     full intrinsic 
