@@ -5,11 +5,16 @@ We plan to improve this repo as we go, while receiving assistance from the commu
 Currently, the tool supports 4 types of monochrome cameras/sensors, combined with the Invense MPU 9X50 family:
 * Matrix-Vision:  mvBlueFOX3-M/MLC 
 
-https://www.matrix-vision.com/USB3-vision-single-board-camera-mvbluefox3-m.html
+    https://www.matrix-vision.com/USB3-vision-single-board-camera-mvbluefox3-m.html
 * IDS-Imaging:  UI3271LE-M-GL   
-- https://en.ids-imaging.com/store/ui-3271le-vu.html
-* Arducam:   https://www.arducam.com/products/camera-breakout-board/global-shutter-camera/
-* Waveshare: https://www.waveshare.com/imx219-200-camera.htm
+
+    https://en.ids-imaging.com/store/ui-3271le-vu.html
+* Arducam:   
+    
+    https://www.arducam.com/products/camera-breakout-board/global-shutter-camera/
+* Waveshare: 
+
+    https://www.waveshare.com/imx219-200-camera.htm
 
 For the lense, a fisheye or wide FOV lense is highly recommended. See this page on our Wiki for some tips.
 Currently, the heavy lifting (SLAM algorithms) takes place on a remote host computer, receiving sensor data over wifi. This makes it easier to both test and develop different SLAM algorithms and new features.
