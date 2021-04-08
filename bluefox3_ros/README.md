@@ -83,4 +83,4 @@ Tested with ROS Melodic, but should work with older/newer versions as well.
 
 ## Acknowledgements
 Originally forked from https://github.com/ctu-mrs/bluefox3_ros
-The code was inspired by the KumarRobotics driver for bluefox2: https://github.com/KumarRobotics/bluefox2.
+The code was inspired by the KumarRobotics driver for bluefox2: https://github.com/KumarRobotics/bluefox2. 
