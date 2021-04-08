@@ -17,7 +17,7 @@ Currently, the tool supports 4 types of monochrome cameras/sensors, combined wit
     https://www.waveshare.com/imx219-200-camera.htm
 
 
-For the lense, a fisheye or wide FOV lense is highly recommended. See this page on our Wiki for some tips: https://github.com/tau-adl/RemoteSLAM/wiki/Camera-IMU-Calibration.
+For the lense, a fisheye or wide FOV lense is highly recommended. All our calibrations are based mainly on Kalibr:  https://github.com/ethz-asl/kalibr .
 
 Currently, the heavy lifting (SLAM algorithms) takes place on a remote host computer, receiving sensor data over wifi. This makes it easier to both test and develop different SLAM algorithms and new features.
 
