@@ -1,0 +1,7 @@
+imgproc:
+  mirror:
+    mode: Off
+acquire:
+  exposure:
+    time: 100 # microseconds
+    AECMode: Off
