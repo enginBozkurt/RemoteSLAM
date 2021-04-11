@@ -12,9 +12,7 @@ Currently, the tool supports 4 types of monochrome cameras/sensors, combined wit
 * Arducam: (runs on Raspbian OS) to be added soon  
     
     https://www.arducam.com/products/camera-breakout-board/global-shutter-camera/
-* Waveshare: to be added soon
 
-    https://www.waveshare.com/imx219-200-camera.htm
 
 
 For the lense, a fisheye or wide FOV lense is highly recommended. All our calibrations are based mainly on Kalibr:  https://github.com/ethz-asl/kalibr .
