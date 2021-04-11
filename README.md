@@ -59,15 +59,4 @@ A Raspberry Pi 4, running Ubuntu 18 and ROS Melodic, was chosen as the the edge 
 
 An ubuntu 18 host computer receives the data from the PI, and runs the different SLAM algorithms. We (make our best effort to) provide all the links, relevant information and Ros wrappers needed for implementing and running the different SLAM algorithms in real time. 
 
-
-## Authors
-
-## References
-
-
-1. M: 
-     a
-1. Vi:
-    st
-1. R*:
-    full  
+  
