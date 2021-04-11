@@ -9,10 +9,10 @@ Currently, the tool supports 4 types of monochrome cameras/sensors, combined wit
 * IDS-Imaging:  UI3271LE-M-GL   
 
     https://en.ids-imaging.com/store/ui-3271le-vu.html
-* Arducam: (runs on Raspbian OS)   
+* Arducam: (runs on Raspbian OS) to be added soon  
     
     https://www.arducam.com/products/camera-breakout-board/global-shutter-camera/
-* Waveshare: 
+* Waveshare: to be added soon
 
     https://www.waveshare.com/imx219-200-camera.htm
 
