@@ -33,6 +33,7 @@ SLAM algorithms supported:
     
 SLAM algorithms soon to be supported:
 * DSO and LDSO (mono). 
+
     https://github.com/JakobEngel/dso
     
     See on Wiki page: https://github.com/tau-adl/RemoteSLAM/wiki/In-construction:--DSO-and-LDSO-(mono)-calibrations-and-ROS-wrappers
