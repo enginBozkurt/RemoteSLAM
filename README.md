@@ -25,14 +25,15 @@ SLAM algorithms supported:
     https://github.com/UZ-SLAMLab/ORB_SLAM3
     
     See on Wiki page:  https://github.com/tau-adl/RemoteSLAM/wiki/Installing-and-running-OrbSLAM3-and-its-ROS-wrapper
-* VINS-Fusion (mono+imu). Wiki page
+* VINS-Fusion (mono+imu). 
 
     https://github.com/HKUST-Aerial-Robotics/VINS-Mono
     
     See on Wiki page:  https://github.com/tau-adl/RemoteSLAM/wiki/Installing-and-running-Vins-Mono
     
 SLAM algorithms soon to be supported:
-* DSO and LDSO (mono). Wiki page   https://github.com/JakobEngel/dso
+* DSO and LDSO (mono). 
+    https://github.com/JakobEngel/dso
     
     See on Wiki page: https://github.com/tau-adl/RemoteSLAM/wiki/In-construction:--DSO-and-LDSO-(mono)-calibrations-and-ROS-wrappers
 
