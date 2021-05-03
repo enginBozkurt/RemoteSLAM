@@ -32,6 +32,9 @@ SLAM algorithms supported:
     See on Wiki page:  https://github.com/tau-adl/RemoteSLAM/wiki/Installing-and-running-Vins-Mono
     
 SLAM algorithms soon to be supported:
+* SVO (mono) .
+  https://github.com/uzh-rpg/rpg_svo
+  
 * DSO and LDSO (mono). 
 
     https://github.com/JakobEngel/dso
