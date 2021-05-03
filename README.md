@@ -2,7 +2,7 @@
 
 The purpose of this repo is to provide the building blocks (software drivers, hardware and algorithms) for implementing SLAM systems using small and lite weight sensors (e.g., cameras, imu).
 We plan to improve this repo as we go, while receiving assistance from the community.
-Currently, the tool supports 4 types of monochrome cameras/sensors, combined with the Invense MPU 9X50 family:
+At this moment, the tool supports 3 types of monochrome cameras/sensors, combined with the Invense MPU 9X50 family:
 * Matrix-Vision:  mvBlueFOX3-M/MLC 
 
     https://www.matrix-vision.com/USB3-vision-single-board-camera-mvbluefox3-m.html
@@ -19,7 +19,7 @@ For the lense, a fisheye or wide FOV lense is highly recommended. All our calibr
 
 Currently, the heavy lifting (SLAM algorithms) takes place on a remote host computer, receiving sensor data over wifi. This makes it easier to both test and develop different SLAM algorithms and new features.
 
-The SLAM algorithms currently supported are:
+SLAM algorithms supported:
 * OrbSLAM3 (mono and mono+imu). 
    
     https://github.com/UZ-SLAMLab/ORB_SLAM3
