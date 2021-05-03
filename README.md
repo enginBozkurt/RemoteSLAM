@@ -33,6 +33,7 @@ SLAM algorithms supported:
     
 SLAM algorithms soon to be supported:
 * SVO (mono) .
+
   https://github.com/uzh-rpg/rpg_svo
   
 * DSO and LDSO (mono). 
